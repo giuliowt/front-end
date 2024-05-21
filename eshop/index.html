@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mop</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="./style.css" rel="stylesheet">
+    <script defer src="./code.js"></script>
+</head>
+
+<body>
+    
+    <div id="top-banner">
+        <a id="login" style="cursor: pointer;"></a>
+        <a href="#">Whishlist (0)</a>
+    </div>
+    
+    <nav>
+        <a href="." class="nav-el logo">Mobile Shop</a>
+        <div class="center">
+            <a href="#sale" class="nav-el option">On Sale</a>
+            <a href="#special" class="nav-el option">Category</a>
+            <a href="#" class="nav-el option">Products</a>
+            <img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow--v1.png"/>
+            <a href="#" class="nav-el option">Blog</a>
+            <a href="#" class="nav-el option">Category</a>
+            <img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow--v1.png"/>
+            <a href="#" class="nav-el option">Coming Soon</a>
+        </div>
+        <img class="cart" src="https://img.icons8.com/ios-glyphs/90/ffffff/shopping-cart--v1.png"/>
+    </nav>
+
+    <div class="central-banner" style="background-color: blue;">
+        <div tabindex="-1" class="promo" style="background-image: url(./images/back1.jpg); background-size: cover;">
+            <div tabindex="-1" class="promo-text">
+                <h4 tabindex="-1" class="nav-el up-title">Mobile Ready</h4>
+                <h1 tabindex="-1" class="nav-el title">Xiaomi Redmi Note 4</h1>
+                <h6 tabindex="-1" class="nav-el sub-title">The Redmi 8A Dual comes with AI Portrait Mode and AI Scene Detection</h6>
+                <button tabindex="-1" class="shop">Shop Now</button>
+            </div>
+                
+            <img tabindex="-1" class="promo-img" src="./images/R4.png">
+        </div>
+
+        <div tabindex="-1" class="promo" style="background-image: url(./images/back2.jpg); background-size: cover;">
+            <div tabindex="-1" class="promo-text">
+                <h4 tabindex="-1" class="nav-el up-title">Mobile Ready</h4>
+                <h1 tabindex="-1" class="nav-el title">Xiaomi Redmi Note 5</h1>
+                <h6 tabindex="-1" class="nav-el sub-title">The Redmi 8A Dual comes with AI Portrait Mode and AI Scene Detection</h6>
+                <button tabindex="-1" class="shop">Shop Now</button>
+            </div>
+                
+            <img tabindex="-1" class="promo-img" src="./images/R5.png">
+        </div>
+
+        <div tabindex="-1" class="promo" style="background-image: url(./images/back3.jpg); background-size: cover;">
+            <div tabindex="-1" class="promo-text">
+                <h4 tabindex="-1" class="nav-el up-title">Mobile Ready</h4>
+                <h1 tabindex="-1" class="nav-el title">Iphone XR</h1>
+                <h6 tabindex="-1" class="nav-el sub-title">The Iphone beauty comes with AI Portrait Mode and AI Scene Detection</h6>
+                <button tabindex="-1" class="shop">Shop Now</button>
+            </div>
+                
+            <img tabindex="-1" class="promo-img" src="./images/XR.png">
+        </div>
+    </div>
+
+    <div id="selections">
+        <div class="selection" tabindex="1"></div>
+        <div class="selection" tabindex="2"></div>
+        <div class="selection" tabindex="3"></div>
+    </div>
+
+    <div class="choice sale" id="sale">
+        <p class="choice-title">Top Sale</p>
+        
+        <div class="choice-products">
+            <div class="hide first">
+                <div class="cover"></div>
+                <img class="products-arrow" src="https://img.icons8.com/material-outlined/96/000000/back--v1.png"/>
+            </div>
+
+                <div class="products">
+                    
+                        <div class="product">
+                            <img class="product-img" src="./images/products/1.png">
+                            <p class="product-title">Samsung Galaxy s6</p>
+                            <div class="stars">
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            </div>
+                            <p class="product-price">$122.00</p>
+                            <input class="add-to-cart" type="submit" value="Add to Cart">
+                        </div>
+
+                        <div class="product">
+                            <img class="product-img" src="./images/products/2.png">
+                            <p class="product-title">Redmi Note 7</p>
+                            <div class="stars">
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            </div>
+                            <p class="product-price">$122.00</p>
+                            <input class="add-to-cart" type="submit" value="Add to Cart">
+                        </div>
+
+                        <div class="product">
+                            <img class="product-img" src="./images/products/3.png">
+                            <p class="product-title">Redmi Note 6</p>
+                            <div class="stars">
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            </div>
+                            <p class="product-price">$122.00</p>
+                            <input class="add-to-cart" type="submit" value="Add to Cart">
+                        </div>
+
+                        <div class="product">
+                            <img class="product-img" src="./images/products/4.png">
+                            <p class="product-title">Redmi Note 5</p>
+                            <div class="stars">
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                                <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            </div>
+                            <p class="product-price">$122.00</p>
+                            <input class="add-to-cart" type="submit" value="Add to Cart">
+                        </div>
+
+                </div>
+                
+            <div class="hide last">
+                <div class="cover"></div>
+                <img class="products-arrow" src="https://img.icons8.com/material-outlined/96/000000/forward.png"/>
+            
+                <div class="product">
+                    <img class="product-img" src="./images/products/5.png">
+                    <p class="product-title">Redmi Note 4</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/6.png">
+                    <p class="product-title">Redmi Note 8</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/7.png">
+                    <p class="product-title">Iphone XR</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/8.png">
+                    <p class="product-title">Redmi Note 9</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/9.png">
+                    <p class="product-title">Iphone XS</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/10.png">
+                    <p class="product-title">Redmi Note</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/11.png">
+                    <p class="product-title">Samsung Galaxy s6</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/12.png">
+                    <p class="product-title">Samsung Galaxy s7</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/13.png">
+                    <p class="product-title">Iphone 5</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/14.png">
+                    <p class="product-title">Iphone 6</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./images/products/15.png">
+                    <p class="product-title">Iphone 7</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choice specials">
+        <p class="choice-title" id="special">Special Price</p>
+        <div class="models">
+            <a class="model">All brands</a>
+            <a class="model">Apple</a>
+            <a class="model">Samsung</a>
+            <a class="model">Redmi</a>
+        </div>
+
+        <div class="brands">
+            <div class="brand apple">
+                <img class="brand-img" src="./images/products/13.png">
+                    <p class="product-title">Iphone 5</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/5.png">
+                <p class="product-title">Redmi Note 4</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/6.png">
+                <p class="product-title">Redmi Note 8</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand apple">
+                <img class="brand-img" src="./images/products/7.png">
+                <p class="product-title">Iphone XR</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/8.png">
+                <p class="product-title">Redmi Note 9</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand apple">
+                <img class="brand-img" src="./images/products/9.png">
+                <p class="product-title">Iphone XS</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/10.png">
+                <p class="product-title">Redmi Note</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand samsung">
+                <img class="brand-img" src="./images/products/11.png">
+                <p class="product-title">Samsung Galaxy s6</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand samsung">
+                <img class="brand-img" src="./images/products/12.png">
+                <p class="product-title">Samsung Galaxy s7</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand apple">
+                <img class="brand-img" src="./images/products/14.png">
+                <p class="product-title">Iphone 6</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand apple">
+                <img class="brand-img" src="./images/products/15.png">
+                <p class="product-title">Iphone 7</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand samsung">
+                <img class="brand-img" src="./images/products/1.png">
+                <p class="product-title">Samsung Galaxy s6</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/2.png">
+                <p class="product-title">Redmi Note 7</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/3.png">
+                <p class="product-title">Redmi Note 6</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+
+            <div class="brand redmi">
+                <img class="brand-img" src="./images/products/4.png">
+                <p class="product-title">Redmi Note 5</p>
+                <div class="stars">
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                </div>
+                <p class="product-price">$122.00</p>
+                <input class="add-to-cart" type="submit" value="Add to Cart">
+            </div>
+        </div>
+    </div>
+
+    <div class="banners">
+        <img class="banner" src="./images/banner1.jpg">
+        <img class="banner" src="./images/banner2.jpg">
+    </div>
+
+    <div class="choice new">
+        <p class="choice-title" id="special">New Phones</p>
+
+        <div class="new-products">
+
+            <div class="hide first first-new-hide new-hide">
+                <div class="cover new-cover"></div>
+            </div>
+
+                <div class="product news">
+                    <img class="product-img" src="./images/products/1.png">
+                    <p class="product-title">Samsung Galaxy s6</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product news">
+                    <img class="product-img" src="./images/products/2.png">
+                    <p class="product-title">Redmi Note 7</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product news">
+                    <img class="product-img" src="./images/products/3.png">
+                    <p class="product-title">Redmi Note 6</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+
+                <div class="product news">
+                    <img class="product-img" src="./images/products/4.png">
+                    <p class="product-title">Redmi Note 5</p>
+                    <div class="stars">
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                    </div>
+                    <p class="product-price">$122.00</p>
+                    <input class="add-to-cart" type="submit" value="Add to Cart">
+                </div>
+            
+                <div class="hide last last-new-hide new-hide">
+                    <div class="cover new-cover"></div>
+
+                    <div class="product new-product-hide new">
+                        <img class="product-img" src="./images/products/7.png">
+                        <p class="product-title">Iphone XR</p>
+                        <div class="stars">
+                            <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                            <img class="star" src="https://img.icons8.com/ios-glyphs/480/000000/star--v2.png"/>
+                        </div>
+                        <p class="product-price">$1220.00</p>
+                        <input class="add-to-cart" type="submit" value="Add to Cart">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-selections">
+        <div class="new-selection"></div>
+        <div class="new-selection"></div>
+    </div>
+
+
+    <div class="choice specials">
+        <p class="choice-title" id="special">Latest Blogs</p>
+        <div class="articles">
+            <div class="article">
+                <h3 class="article-title">Upcoming Mobiles</h3>
+                <img class="article-img" src="./images/blog/blog1.jpg">
+                <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="article-link">Go somewhere</a>
+            </div>
+
+            <div class="article">
+                <h3 class="article-title">Upcoming Mobiles</h3>
+                <img class="article-img" src="./images/blog/blog2.jpg">
+                <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="article-link">Go somewhere</a>
+            </div>
+
+            <div class="article">
+                <h3 class="article-title">Upcoming Mobiles</h3>
+                <img class="article-img" src="./images/blog/blog3.jpg">
+                <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="article-link">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="top-el" style="width: 18%;">
+                <h3 class="top-title" style="margin: 0;">Mobile Shopee</h3>
+                <p class="top-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+            </div>
+
+            <div class="top-el">
+                <h3 class="top-title">Newsletter</h3>
+                <form class="top-form">
+                    <input class="top-form-mail" type="email" placeholder="Email *">
+                    <input class="top-form-submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+
+            <div class="top-el">
+                <h3 class="top-title">Mobile Shopee</h3>
+                <a href="#" class="top-link">About Us</a>
+                <a href="#" class="top-link">Delivery Information</a>
+                <a href="#" class="top-link">Privacy Policy</a>
+                <a href="#" class="top-link">Terms & Conditions</a>
+            </div>
+
+            <div class="top-el">
+                <h3 class="top-title">Account</h3>
+                <a href="#" class="top-link">My account</a>
+                <a href="#" class="top-link">Order History</a>
+                <a href="#" class="top-link">Wish List</a>
+                <a href="#" class="top-link">Newsletter</a>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <p class="bottom-text">© Copyrights 2020. Design By <a class="bottom-link" href="#">Kund</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
