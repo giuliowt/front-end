@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Your description">
+    <meta name="author" content="Myself">
+    <meta name="keywords" content="Prova">
+
+    <title>Color</title>
+    <link href="prova.css" rel="stylesheet" type="text/css">
+    <script defer src="prova.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+<body>
+    
+    <nav>
+        <h1 id="logo"><a href="./prova.html">COLOR</a></h1>
+        <div id="options">
+            <a href="#first" class="option">Home</a>
+            <a href="#second" class="option">About Us</a>
+            <a href="#third" class="option">Services</a>
+            <input id="sign" type="button" value="Sign Up">
+            <img class="menu" src="https://img.icons8.com/material-outlined/384/ffffff/menu--v1.png" onclick="showMenu()"/>
+        </div>
+    </nav>
+
+    <div id="menu">
+        <a href="#first" class="choice">Home</a>
+        <a href="#second" class="choice">About Us</a>
+        <a href="#third" class="choice">Services</a>
+        <input id="sign-up" type="button" value="Sign up">
+    </div>
+
+    <div id="first" onclick="showMenu()">
+        <h1 id="title">Choose your <a id="color">colors</a></h1>
+        <h3 id="subtitle">Unlimited Possibilities</h3>
+        <input id="explore" type="button" value="Explore">
+    </div>
+
+    <div id="second" onclick="showMenu()">
+        <div id="schedule">
+            <img id="schedule-logo" src="https://img.icons8.com/ios-filled/500/ffffff/google-sheets.png"/>
+        </div>
+        <div id="desc-1">
+            <h1 id="what">WHAT DO WE DO?</h1>
+            <h1 id="effect">We help businesses scale</h1>
+            <p id="detail">Schedule a call to learn more about our services</p>
+            <input id="call" type="button" value="Schedule Call">
+        </div>
+    </div>
+
+    <div id="third" onclick="showMenu()">
+        <h1 id="services">Our Services</h1>
+        <div id="types">
+            <div class="type first">
+                <h1 class="name">Custom Colorways</h1>
+                <p class="subname">AI Powered technology</p>
+                <input class="minimal" type="button" value="Get Started">
+            </div>
+
+            <div class="type second">
+                <h1 class="name">Are you Ready?</h1>
+                <p class="subname">Take the leap</p>
+                <input class="minimal" type="button" value="Get Started">
+            </div>
+
+            <div class="type third">
+                <h1 class="name">Full Gradients</h1>
+                <p class="subname">100 Combinations</p>
+                <input class="minimal" type="button" value="Get Started">
+            </div>
+
+            <div class="type fourth">
+                <h1 class="name">Infinite Choices</h1>
+                <p class="subname">1000's of colors</p>
+                <input class="minimal" type="button" value="Get Started">
+            </div>
+        </div>
+    </div>
+
+    <div id="fourth" onclick="showMenu()">
+        
+        <div id="desc-2">
+            <h1 id="what">JOIN OUR TEAM</h1>
+            <h1 id="effect">Sign Up Today</h1>
+            <p id="detail">See what makes up different</p>
+            <input id="call" type="button" value="Sign up">
+        </div>
+
+        <div id="schedule-2">
+            <img id="schedule-logo" src="https://img.icons8.com/material-rounded/384/ffffff/conference-call.png"/>
+        </div>
+
+    </div>
+</body>
+</html>

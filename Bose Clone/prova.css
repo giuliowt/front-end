@@ -1,0 +1,460 @@
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    padding: 3vmin;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+#logo {
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+}
+
+#sections {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    background-image: linear-gradient(grey 50%, black);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 2vmin;
+    cursor: pointer;
+}
+
+.section:hover {
+    color: white;
+    transition: color 0.5s linear;
+}
+
+.section:not(:hover) {
+    color: transparent;
+    transition: color 0.5s linear;
+}
+
+#scene {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0;
+    top: -10vmin;
+    left: -5vmin;
+    animation: scene-anim 1s ease;
+    z-index: -1;
+}
+
+@keyframes scene-anim {
+    0% {
+        opacity: 0;
+        top: -15vmin;
+    } 100% {
+        opacity: 1;
+        top: -10vmin;
+    }
+}
+
+#scene img {
+    width: 35vmin;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 10vmin;
+    animation: home-anim 1s ease;
+    margin-bottom: 10vmin;
+}
+
+@keyframes home-anim {
+    0% {
+        margin-top: 2vmin;
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+        margin-top: 0vmin;
+    }
+}
+
+#title {
+    background-image: linear-gradient(grey 50%, black);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 12vmin;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 7vmin;
+}
+
+#overview {
+    font-size: 2.5vmin;
+    margin-top: 5vmin;
+}
+
+#home-desc {
+    color: grey;
+    font-size: 2vmin;
+}
+
+.home-el {
+    margin: 0.5vmin 0;
+}
+
+#form {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 0 1vmin;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 5vmin;
+}
+
+#shop-img {
+    width: 4vmin;
+    height: 4vmin;
+}
+
+#add {
+    font-size: 2vmin;
+}
+
+#price {
+    font-size: 2vmin;
+    font-weight: bolder;
+}
+
+#specs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20vmin;
+}
+
+#specs-title {
+    background-image: linear-gradient(grey 50%, black);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 10vmin;
+    text-align: center;
+}
+
+#details {
+    display: flex;
+    flex-direction: row;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vmin;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec-icon {
+    width: 3vmin;
+}
+
+.mini-title {
+    color: white;
+}
+
+.info-el {
+    margin: 0;
+}
+
+.mini-desc {
+    color: rgb(182, 182, 182);
+    font-size: 1.5vmin;
+}
+
+#spec-scene {
+    width: 40vmin;
+    margin-left: 5vmin;
+}
+
+#case {
+    display: flex;
+    flex-direction: column;
+    height: 80vmin;
+}
+
+#case-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#case-text {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 2vmin;
+}
+
+#case-img {
+    width: 30vmin;
+    margin-right: 2vmin;
+}
+
+#case-info {
+    color: rgb(182, 182, 182);
+    font-size: 2vmin;
+}
+
+#case-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 13vmin;
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    padding: 0 2vmin;
+}
+
+#case-more-img {
+    width: 3vmin;
+    height: 3vmin;
+    cursor: pointer;
+}
+
+#case-more-info {
+    font-size: 2vmin;
+    color: white;
+}
+
+#immerse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(37, 37, 37);
+    margin: 0 auto;
+    padding: 5vmin;
+    margin: 0vmin 5vmin 15vmin 5vmin;
+}
+
+#immerse-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#immerse-title {
+    color: white;
+    font-size: 3vmin;
+    margin: 0;
+}
+
+#immerse-img {
+    width: 40vmin;
+}
+
+#styles {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.style {
+    background-color: rgb(37, 37, 37);
+    padding: 2vmin;
+    width: 15vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#products {
+    height: 100vmin;
+}
+
+.product {
+    width: 10vmin;
+}
+
+.style-title {
+    color: white;
+    font-size: 2vmin;
+    font-weight: lighter;
+}
+
+.cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Ncost {
+    color: grey;
+    font-size: 2vmin;
+    font-weight: bolder;
+}
+
+#styles-2 {
+    padding-top: 5vmin;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: 10vmin;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.extra-title {
+    color: white;
+    font-size: 2.25vmin;
+    margin: 1vmin 0;
+}
+
+.extra-option {
+    color: grey;
+    font-size: 2vmin;
+    cursor: pointer;
+    margin: 0.5vmin 0;
+}
+
+.extra-option:hover {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.extra-option:not(:hover) {
+    color: grey;
+    transition: color 0.5s ease;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1vmin;
+    width: 40vmin;
+    height: 8vmin;
+    background-color: rgb(37, 37, 37);
+    cursor: default;
+}
+
+#email {
+    background-color: transparent;
+    border: none;
+    font-size: 2vmin;
+    outline: none;
+    color: white;
+}
+
+#register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 14vmin;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+    height: 5vmin;
+}
+
+#register-img {
+    width: 3vmin;
+}
+
+#register-text {
+    color: white;
+    font-size: 2vmin;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    margin: 1vmin;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.social {
+    width: 3vmin;
+    cursor: pointer;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#CPlogo {
+    width: 2vmin;
+}
+
+#CPtext {
+    margin-left: 1vmin;
+    font-size: 1.5vmin;
+    color: grey;
+}
+
+* {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+

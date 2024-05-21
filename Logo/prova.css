@@ -1,0 +1,302 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+nav  {
+    background-image: linear-gradient(90deg, rgb(148, 0, 148), rgb(92, 1, 92));
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1vmin 0;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+#logo {
+    width: 20vmin;
+    height: 6vmin;
+    margin-left: 3vmin;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 60vmin;
+    margin-right: 3vmin;
+}
+
+.option {
+    color: white;
+    font-size: 2vmin;
+}
+
+#home {
+    height: 100%;
+    background-image: linear-gradient(90deg, rgb(148, 0, 148), rgb(92, 1, 92));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#home-title, .desc {
+    color: white;
+}
+
+#home-title {
+    font-size: 5vmin;
+}
+
+.desc {
+    margin: 0.25vmin 0;
+    font-size: 2vmin;
+}
+
+#play {
+    width: 22vmin;
+    height: 10vmin;
+    margin-top: 2vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#play-icon {
+    width: 7vmin;
+    height: 7vmin;
+    cursor: pointer;
+}
+
+#watch {
+    color: white;
+    font-size: 2vmin;
+    cursor: pointer;
+}
+
+#home-logo {
+    height: 50vmin;
+}
+
+#wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#services {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#what {
+    font-size: 6vmin;
+    margin: 10vmin 0 0 0;
+}
+
+#decoration {
+    width: 30vmin;
+    height: 1vmin;
+    background-color: purple;
+}
+
+#services-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vmin;
+}
+
+#services-main {
+    width: 100%;
+}
+
+.service {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vmin;
+}
+
+.service-title {
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.service-desc {
+    font-size: 2vmin;
+    text-align: center;
+}
+
+.service-img {
+    width: 10vmin;
+    height: 10vmin;
+}
+
+#service-btn {
+    font-size: 2vmin;
+    border: none;
+    background-image: linear-gradient(90deg, rgb(148, 0, 148), rgb(92, 1, 92));
+    color: white;
+    padding: 1vmin 2vmin;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 3vmin;
+}
+
+#about {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+#about-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10vmin;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-title {
+    font-size: 4vmin;
+    margin-top: 8vmin;
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 2vmin;
+}
+
+li {
+    margin-bottom: 1vmin;
+    font-size: 2vmin;
+}
+
+#about-logo {
+    width: 65vmin;
+    height: 50vmin;
+}
+
+#testimonials {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#user {
+    display: flex;
+    flex-direction: row;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vmin;
+}
+
+.review {
+    padding: 0 2vmin;
+    width: 35%;
+    border-left: 8px solid purple;
+}
+
+.review-text {
+    font-size: 2vmin;
+    margin-top: 0;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-img {
+    width: 8vmin;
+    height: 8vmin;
+    border-radius: 100%;
+    margin-right: 2vmin;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.5vmin;
+    margin: 0;
+}
+
+.role {
+    font-size: 1.5vmin;
+    margin-top: 0.5vmin;
+}
+
+#contact {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#find {
+    font-size: 4vmin;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    width: 8vmin;
+    height: 8vmin;
+    cursor: pointer;
+}
+
+* {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    /* border: 2px solid red; */
+}
